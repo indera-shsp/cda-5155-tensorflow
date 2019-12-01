@@ -47,6 +47,8 @@ def extract_gps_coordinates(files):
 
 def resize_and_tag(data, outputdir, new_width):
 
+    i = 0
+
     for file_data in data.values():
         # print(file_data)
 
@@ -57,8 +59,15 @@ def resize_and_tag(data, outputdir, new_width):
         percent = (new_width / float(img.size[0]))
         new_height = int((float(img.size[1]) * float(percent)))
 
+        i = i + 1
+        if i % 10 == 1:
+            print('Processing image {} out of {}'.format(i, len(data)))
+
+        prefix = str(i).zfill(4)
+        resized_name = os.path.join(outputdir, 'thumb_{}_lat_{}_lon_{}{}'.format(prefix, lat, lon, ext))
+
         img_resized = img.resize((new_width, new_height), Image.ANTIALIAS)
 
-        resized_name = os.path.join(outputdir, '{}_thumb_lat_{}_lon_{}{}'.format(file, lat, lon, ext))
         img_resized.save(resized_name)
+
 

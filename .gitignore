@@ -103,6 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-.my-env/
-__pycache__/
 input/
+output/
+input_raw_images/

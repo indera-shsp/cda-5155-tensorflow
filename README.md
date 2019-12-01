@@ -6,8 +6,8 @@ This repo contains code developed for the CDA class - Fall 2019
 
 # Setup steps
 
-    python3 -m venv .my-env
-    source ./.my-env/bin/activate
+    python3 -m venv .env
+    source ./.env/bin/activate
     pip install -r requirements.txt
 
 

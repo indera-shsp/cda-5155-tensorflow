@@ -46,8 +46,9 @@ def main():
     files_with_gps_data = utils.extract_gps_coordinates(files)
     pprint(files_with_gps_data)
 
-    log.info('Resizing {} files to {} width'.format(len(files), args.width))
-    utils.resize_and_tag(files_with_gps_data, args.outputdir, args.width)
+    width = int(args.width)
+    log.info('Resizing {} files to {} px width'.format(len(files), width))
+    utils.resize_and_tag(files_with_gps_data, args.outputdir, width)
 
     end = time.monotonic()
     elapsed = (end - start)
