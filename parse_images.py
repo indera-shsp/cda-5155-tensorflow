@@ -44,7 +44,9 @@ def main():
     log.info('Found {} files in directory [{}]'.format(len(files), args.inputdir))
 
     files_with_gps_data = utils.extract_gps_coordinates(files)
-    pprint(files_with_gps_data)
+    # pprint(files_with_gps_data)
+
+    utils.create_plus_code_dirs(files_with_gps_data, args.outputdir)
 
     width = int(args.width)
     log.info('Resizing {} files to {} px width'.format(len(files), width))
