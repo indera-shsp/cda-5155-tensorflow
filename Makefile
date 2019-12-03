@@ -8,3 +8,8 @@ run_set_1:
 
 run_set_2:
 	./parse_images.py -i input_raw_images/set_2_320_images/ -o output/set_2 -w 256
+
+
+
+run_set_all:
+	./parse_images.py -i input_raw_images/set_all_582/ -o output/set_all -w 256
