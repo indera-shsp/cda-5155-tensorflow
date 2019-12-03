@@ -56,6 +56,8 @@ This repo contains code developed for the CDA class - Fall 2019
 
 ## Picking the number of clusters
 
+- https://www.tensorflow.org/tutorials/load_data/images
+- https://www.tensorflow.org/tutorials/images/classification
 - (!) https://github.com/google/open-location-code/blob/master/python/openlocationcode_test.py
 - (!) https://stackoverflow.com/questions/44416764/loading-folders-of-images-in-tensorflow
 - (!) https://datascience.stackexchange.com/questions/761/clustering-geo-location-coordinates-lat-long-pairs/25424#25424
