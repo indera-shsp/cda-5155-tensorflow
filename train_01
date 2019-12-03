@@ -1,0 +1,17 @@
+total_train: 582, total_val: 1
+Epoch 1/8
+4/4 [==============================] - 40s 10s/step - loss: -275.4389 - accuracy: 0.0022 - val_loss: 0.8518 - val_accuracy: 0.2778
+Epoch 2/8
+4/4 [==============================] - 38s 9s/step - loss: -373.3845 - accuracy: 0.0044 - val_loss: 0.8518 - val_accuracy: 0.2778
+Epoch 3/8
+4/4 [==============================] - 42s 11s/step - loss: -381.8036 - accuracy: 0.0000e+00 - val_loss: 0.8518 - val_accuracy: 0.2778
+Epoch 4/8
+4/4 [==============================] - 33s 8s/step - loss: -356.8634 - accuracy: 0.0051 - val_loss: 0.8518 - val_accuracy: 0.2778
+Epoch 5/8
+4/4 [==============================] - 42s 10s/step - loss: -371.4118 - accuracy: 0.0039 - val_loss: 0.8518 - val_accuracy: 0.2778
+Epoch 6/8
+4/4 [==============================] - 38s 9s/step - loss: -378.5854 - accuracy: 0.0022 - val_loss: 0.8518 - val_accuracy: 0.2778
+Epoch 7/8
+4/4 [==============================] - 44s 11s/step - loss: -362.7569 - accuracy: 0.0020 - val_loss: 0.8518 - val_accuracy: 0.2778
+Epoch 8/8
+4/4 [==============================] - 35s 9s/step - loss: -379.2642 - accuracy: 0.0051 - val_loss: 0.8518 - val_accuracy: 0.2778
